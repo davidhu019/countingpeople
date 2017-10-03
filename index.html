@@ -18,8 +18,8 @@
             $("#numberofpeoplefield6").val(numclicks6);
 
             var newdomelement6 = $("<div class='marker'></div>");
-            newdomelement6.css("left", (e.pageX-7) + "px");
-            newdomelement6.css("top", (e.pageY-7) + "px");
+            newdomelement6.css("left", (e.pageX-6) + "px");
+            newdomelement6.css("top", (e.pageY-6) + "px");
 
             newdomelement6.click(removeElementEvent6);
             $("body").append(newdomelement6);
@@ -247,13 +247,13 @@
 
 <style type="text/css">
     .marker {
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     background: red;
-    opacity: 0.9;
-    -moz-border-radius: 7px;
-    -webkit-border-radius: 7px;
-    border-radius: 7px;
+    opacity: 0.8;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
     position: absolute;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
     border: 2px solid white;
